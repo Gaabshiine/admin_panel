@@ -56405,7 +56405,68 @@ html[dir=rtl] body.dark-only .page-wrapper .page-body-wrapper .page-body .card:n
   }
 }
 
+
+/* Sidebar icon colors - matches original stroke-icon colors */
+  .sidebar-wrapper .sidebar-list > a i,
+  .sidebar-wrapper .back-btn i,
+  .sidebar-wrapper .mobile-back i,
+  .sidebar-wrapper .left-arrow i,
+  .sidebar-wrapper .right-arrow i {
+    color: inherit;
+    transition: all 0.3s ease;
+  }
+  
+  /* For dark/light mode compatibility */
+  .sidebar-wrapper .sidebar-list > a i {
+    color: #C3C3C3;
+  }
+  
+  .sidebar-wrapper .sidebar-list > a:hover i,
+  .sidebar-wrapper .sidebar-list > a.active i {
+    color: #ffffff;
+  }
+  
+  /* For the pin icons (thumb-tack) */
+  .sidebar-list > i.fa-thumb-tack {
+    color: #C3C3C3;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  /* Sidebar toggle icons */
+  .toggle-sidebar i,
+  .back-btn i {
+    color: #C3C3C3;
+  }
+  
+  .toggle-sidebar i:hover,
+  .back-btn i:hover {
+    color: #ffffff;
+  }
+  
+  /* For sidebar menu icons - make them consistent with stroke-icons */
+  .sidebar-link i {
+    width: 20px;
+    text-align: center;
+    margin-right: 12px;
+    font-size: 16px;
+  }
+  
+  /* Active menu item styling */
+  .sidebar-list .sidebar-link.active i {
+    color: #ffffff;
+  }
+  
+  /* Submenu arrow icons */
+  .sub-arrow i {
+    color: #C3C3C3;
+    font-size: 12px;
+  }
+  
+
 /**=====================
   5.9 Box-layout CSS Ends
 ==========================**/
 /*# sourceMappingURL=style.css.map */
+
+
