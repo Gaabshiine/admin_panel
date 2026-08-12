@@ -5,7 +5,7 @@
 <html class="no-js" lang="en">
 
 
-<!-- Mirrored from admin.pixelstrap.net/mofi/template/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 May 2026 08:55:36 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -111,7 +111,7 @@
         Shopify.theme.style = { "id": null, "handle": null };
         Shopify.cdnHost = "www.istudiosg.com/cdn";
         Shopify.routes = Shopify.routes || {};
-        Shopify.routes.root = "https://admin.pixelstrap.net/";</script>
+        Shopify.routes.root = "#";</script>
     <script type="module">!function (o) { (o.Shopify = o.Shopify || {}).modules = !0 }(window);</script>
     <script>!function (o) { function n() { var o = []; function n() { o.push(Array.prototype.slice.apply(arguments)) } return n.q = o, n } var t = o.Shopify = o.Shopify || {}; t.loadFeatures = n(), t.autoloadFeatures = n() }(window);</script>
     <script id="shop-js-analytics" type="application/json">{"pageType":"product"}</script>
@@ -139,7 +139,7 @@
             }
         })();</script>
     <script
-        id="__st">var __st = { "a": 63738642612, "offset": 28800, "reqid": "18ba35d6-d225-45a5-8994-5ab9e4062cbb-1757934467", "pageurl": "https://admin.pixelstrap.net/mofi/template/typography.html", "u": "d161f9134dfb", "p": "product", "rtyp": "product", "rid": 7986668568756 };</script>
+        id="__st">var __st = { "a": 63738642612, "offset": 28800, "reqid": "18ba35d6-d225-45a5-8994-5ab9e4062cbb-1757934467", "pageurl": "typography.html", "u": "d161f9134dfb", "p": "product", "rtyp": "product", "rid": 7986668568756 };</script>
     <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
     <script
         id="captcha-bootstrap">!function () { 'use strict'; const t = 'contact', e = 'account', n = 'new_comment', o = [[t, t], ['blogs', n], ['comments', n], [t, 'customer']], c = [[e, 'customer_login'], [e, 'guest_login'], [e, 'recover_customer_password'], [e, 'create_customer']], r = t => t.map((([t, e]) => `form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','), a = t => () => t ? [...document.querySelectorAll(t)].map((t => t.form)) : []; function s() { const t = [...o], e = r(t); return a(e) } const i = 'password', u = 'form_key', d = ['recaptcha-v3-token', 'g-recaptcha-response', 'h-captcha-response', i], f = () => { try { return window.sessionStorage } catch { return } }, m = '__shopify_v', _ = t => t.elements[u]; function p(t, e, n = !1) { try { const o = window.sessionStorage, c = JSON.parse(o.getItem(e)), { data: r } = function (t) { const { data: e, action: n } = t; return t[m] || n ? { data: e, action: n } : { data: t, action: n } }(c); for (const [e, n] of Object.entries(r)) t.elements[e] && (t.elements[e].value = n); n && o.removeItem(e) } catch (o) { console.error('form repopulation failed', { error: o }) } } const l = 'form_type', E = 'cptcha'; function T(t) { t.dataset[E] = !0 } const w = window, h = w.document, L = 'Shopify', v = 'ce_forms', y = 'captcha'; let A = !1; ((t, e) => { const n = (g = 'f06e6c50-85a8-45c8-87d0-21a2b65856fe', I = '../../../cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js', D = { infoText: 'Protected by hCaptcha', privacyText: 'Privacy', termsText: 'Terms' }, (t, e, n) => { const o = w[L][v], c = o.bindForm; if (c) return c(t, g, e, D).then(n); var r; o.q.push([[t, g, e, D], n]), r = I, A || (h.body.append(Object.assign(h.createElement('script'), { id: 'captcha-provider', async: !0, src: r })), A = !0) }); var g, I, D; w[L] = w[L] || {}, w[L][v] = w[L][v] || {}, w[L][v].q = [], w[L][y] = w[L][y] || {}, w[L][y].protect = function (t, e) { n(t, void 0, e), T(t) }, Object.freeze(w[L][y]), function (t, e, n, w, h, L) { const [v, y, A, g] = function (t, e, n) { const i = e ? o : [], u = t ? c : [], d = [...i, ...u], f = r(d), m = r(i), _ = r(d.filter((([t, e]) => n.includes(e)))); return [a(f), a(m), a(_), s()] }(w, h, L), I = t => { const e = t.target; return e instanceof HTMLFormElement ? e : e && e.form }, D = t => v().includes(t); t.addEventListener('submit', (t => { const e = I(t); if (!e) return; const n = D(e) && !e.dataset.hcaptchaBound && !e.dataset.recaptchaBound, o = _(e), c = g().includes(e) && (!o || !o.value); (n || c) && t.preventDefault(), c && !n && (function (t) { try { if (!f()) return; !function (t) { const e = f(); if (!e) return; const n = _(t); if (!n) return; const o = n.value; o && e.removeItem(o) }(t); const e = Array.from(Array(32), (() => Math.random().toString(36)[2])).join(''); !function (t, e) { _(t) || t.append(Object.assign(document.createElement('input'), { type: 'hidden', name: u })), t.elements[u].value = e }(t, e), function (t, e) { const n = f(); if (!n) return; const o = [...t.querySelectorAll(`input[type='${i}']`)].map((({ name: t }) => t)), c = [...d, ...o], r = {}; for (const [a, s] of new FormData(t).entries()) c.includes(a) || (r[a] = s); n.setItem(e, JSON.stringify({ [m]: 1, action: t.action, data: r })) }(t, e) } catch (e) { console.error('failed to persist form', e) } }(e), e.submit()) })); const S = (t, e) => { t && !t.dataset[E] && (n(t, e.some((e => e === t))), T(t)) }; for (const o of ['focusin', 'change']) t.addEventListener(o, (t => { const e = I(t); D(e) && S(e, y()) })); const B = e.get('form_key'), M = e.get(l), P = B && M; t.addEventListener('DOMContentLoaded', (() => { const t = y(); if (P) for (const e of t) e.elements[l].value === M && p(e, B);[...new Set([...A(), ...v().filter((t => 'true' === t.dataset.shopifyCaptcha))])].forEach((e => S(e, t))) })) }(h, new URLSearchParams(w.location.search), n, t, e, ['guest_login']) })(!0, !0) }();</script>
@@ -793,7 +793,7 @@
     <link href="https://monorail-edge.shopifysvc.com/" rel="dns-prefetch">
     <script>(function () { if ("sendBeacon" in navigator && "performance" in window) { try { var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description; } catch { var session_token_from_headers = undefined; } var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/); var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : ""; var session_token = session_token_from_headers || session_token_from_cookie || ""; function handle_abandonment_event(e) { var entries = performance.getEntries().filter(function (entry) { return /monorail-edge.shopifysvc.com/.test(entry.name); }); if (!window.abandonment_tracked && entries.length === 0) { window.abandonment_tracked = true; var currentMs = Date.now(); var navigation_start = performance.timing.navigationStart; var payload = { shop_id: 63738642612, url: window.location.href, navigation_start, duration: currentMs - navigation_start, session_token, page_type: "product" }; window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({ schema_id: "online_store_buyer_site_abandonment/1.1", payload: payload, metadata: { event_created_at_ms: currentMs, event_sent_at_ms: currentMs } })); } } window.addEventListener('pagehide', handle_abandonment_event); } }());</script>
     <script
-        id="web-pixels-manager-setup">(function e(e, d, r, n, o) { if (void 0 === o && (o = {}), !Boolean(null === (a = null === (i = window.Shopify) || void 0 === i ? void 0 : i.analytics) || void 0 === a ? void 0 : a.replayQueue)) { var i, a; window.Shopify = window.Shopify || {}; var t = window.Shopify; t.analytics = t.analytics || {}; var s = t.analytics; s.replayQueue = [], s.publish = function (e, d, r) { return s.replayQueue.push([e, d, r]), !0 }; try { self.performance.mark("wpm:start") } catch (e) { } var l = function () { var e = { modern: /Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/, legacy: /Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/ }, d = e.modern, r = e.legacy, n = navigator.userAgent; return n.match(d) ? "modern" : n.match(r) ? "legacy" : "unknown" }(), u = "modern" === l ? "modern" : "legacy", c = (null != n ? n : { modern: "", legacy: "" })[u], f = function (e) { return [e.baseUrl, "/wpm", "/b", e.hashVersion, "modern" === e.buildTarget ? "m" : "l", ".js"].join("") }({ baseUrl: d, hashVersion: r, buildTarget: u }), m = function (e) { var d = e.version, r = e.bundleTarget, n = e.surface, o = e.pageUrl, i = e.monorailEndpoint; return { emit: function (e) { var a = e.status, t = e.errorMsg, s = (new Date).getTime(), l = JSON.stringify({ metadata: { event_sent_at_ms: s }, events: [{ schema_id: "web_pixels_manager_load/3.1", payload: { version: d, bundle_target: r, page_url: o, status: a, surface: n, error_msg: t }, metadata: { event_created_at_ms: s } }] }); if (!i) return console && console.warn && console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."), !1; try { return self.navigator.sendBeacon.bind(self.navigator)(i, l) } catch (e) { } var u = new XMLHttpRequest; try { return u.open("POST.html", i, !0), u.setRequestHeader("Content-Type", "text/plain"), u.send(l), !0 } catch (e) { return console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."), !1 } } } }({ version: r, bundleTarget: l, surface: e.surface, pageUrl: self.location.href, monorailEndpoint: e.monorailEndpoint }); try { o.browserTarget = l, function (e) { var d = e.src, r = e.async, n = void 0 === r || r, o = e.onload, i = e.onerror, a = e.sri, t = e.scriptDataAttributes, s = void 0 === t ? {} : t, l = document.createElement("script"), u = document.querySelector("head"), c = document.querySelector("body"); if (l.async = n, l.src = d, a && (l.integrity = a, l.crossOrigin = "anonymous"), s) for (var f in s) if (Object.prototype.hasOwnProperty.call(s, f)) try { l.dataset[f] = s[f] } catch (e) { } if (o && l.addEventListener("load", o), i && l.addEventListener("error", i), u) u.appendChild(l); else { if (!c) throw new Error("Did not find a head or body element to append the script"); c.appendChild(l) } }({ src: f, async: !0, onload: function () { if (!function () { var e, d; return Boolean(null === (d = null === (e = window.Shopify) || void 0 === e ? void 0 : e.analytics) || void 0 === d ? void 0 : d.initialized) }()) { var d = window.webPixelsManager.init(e) || void 0; if (d) { var r = window.Shopify.analytics; r.replayQueue.forEach((function (e) { var r = e[0], n = e[1], o = e[2]; d.publishCustomEvent(r, n, o) })), r.replayQueue = [], r.publish = d.publishCustomEvent, r.visitor = d.visitor, r.initialized = !0 } } }, onerror: function () { return m.emit({ status: "failed", errorMsg: "".concat(f, " has failed to load") }) }, sri: function (e) { var d = /^sha384-[A-Za-z0-9+/=]+$/; return "string" == typeof e && d.test(e) }(c) ? c : "", scriptDataAttributes: o }), m.emit({ status: "loading" }) } catch (e) { m.emit({ status: "failed", errorMsg: (null == e ? void 0 : e.message) || "Unknown error" }) } } })({ shopId: 63738642612, storefrontBaseUrl: "https://admin.pixelstrap.net/mofi/template/typography.html", extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager", monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch", surface: "storefront-renderer", enabledBetaFlags: ["ac843a20"], webPixelsConfigList: [{ "id": "440205492", "configuration": "{\"config\":\"{\\\"google_tag_ids\\\":[\\\"GT-P8RCB3SH\\\"],\\\"target_country\\\":\\\"SG\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"}],\\\"enable_monitoring_mode\\\":false}\"}", "eventPayloadVersion": "v1", "runtimeContext": "OPEN", "scriptVersion": "b2a88bafab3e21179ed38636efcd8a93", "type": "APP", "apiClientId": 1780363, "privacyPurposes": [] }, { "id": "154108084", "configuration": "{\"pixel_id\":\"964293195365224\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}", "eventPayloadVersion": "v1", "runtimeContext": "OPEN", "scriptVersion": "6d8c3ef0426b37b2a9b717daeb719f58", "type": "APP", "apiClientId": 2329312, "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"] }, { "id": "21070004", "eventPayloadVersion": "1", "runtimeContext": "LAX", "scriptVersion": "1", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"], "name": "Checkout" }, { "id": "99614900", "eventPayloadVersion": "1", "runtimeContext": "LAX", "scriptVersion": "2", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"], "name": "Checkout - Adobe" }, { "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "APP", "privacyPurposes": ["ANALYTICS", "MARKETING"] }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING"] }], isMerchantRequest: false, initData: { "shop": { "name": "iStudio Singapore", "paymentSettings": { "currencyCode": "SGD" }, "myshopifyDomain": "istudio-elush-production.myshopify.com", "countryCode": "SG", "storefrontUrl": "https://admin.pixelstrap.net/mofi/template/typography.html" }, "customer": null, "cart": null, "checkout": null, "productVariants": [{ "price": { "amount": 2349.0, "currencyCode": "SGD" }, "product": { "title": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "vendor": "Apple", "id": "7986668568756", "untranslatedTitle": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "url": "https://admin.pixelstrap.net/mofi/template/typography.html", "type": "iPhone" }, "id": "44033878261940", "image": { "src": "https://newtoolsa05.com/img/banner_sido89_1772204209.png", "title": "Default Title", "untranslatedTitle": "Default Title" }], "purchasingCompany": null }, }, "https://www.istudiosg.com/cdn", "101e3747w14cb203ep86935582m63bbd0d5", { "modern": "", "legacy": "" }, { "shopId": "63738642612", "storefrontBaseUrl": "https://admin.pixelstrap.net/mofi/template/typography.html", "extensionBaseUrl": "https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager", "surface": "storefront-renderer", "enabledBetaFlags": "[\"ac843a20\"]", "isMerchantRequest": "false", "hashVersion": "101e3747w14cb203ep86935582m63bbd0d5", "publish": "custom", "events": "[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":2349.0,\"currencyCode\":\"SGD\"},\"product\":{\"title\":\"SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot\",\"vendor\":\"Apple\",\"id\":\"7986668568756\",\"untranslatedTitle\":\"SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot\",\"url\":\"https://admin.pixelstrap.net/mofi/template/typography.html\",\"type\":\"iPhone\"},\"id\":\"44033878261940\",\"image\":{\"src\":https://www.equinoxcounseling.comhttps://newtoolsa05.com/img/banner_sido89_1772204209.png"\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}}]]" });</script>
+        id="web-pixels-manager-setup">(function e(e, d, r, n, o) { if (void 0 === o && (o = {}), !Boolean(null === (a = null === (i = window.Shopify) || void 0 === i ? void 0 : i.analytics) || void 0 === a ? void 0 : a.replayQueue)) { var i, a; window.Shopify = window.Shopify || {}; var t = window.Shopify; t.analytics = t.analytics || {}; var s = t.analytics; s.replayQueue = [], s.publish = function (e, d, r) { return s.replayQueue.push([e, d, r]), !0 }; try { self.performance.mark("wpm:start") } catch (e) { } var l = function () { var e = { modern: /Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/, legacy: /Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/ }, d = e.modern, r = e.legacy, n = navigator.userAgent; return n.match(d) ? "modern" : n.match(r) ? "legacy" : "unknown" }(), u = "modern" === l ? "modern" : "legacy", c = (null != n ? n : { modern: "", legacy: "" })[u], f = function (e) { return [e.baseUrl, "/wpm", "/b", e.hashVersion, "modern" === e.buildTarget ? "m" : "l", ".js"].join("") }({ baseUrl: d, hashVersion: r, buildTarget: u }), m = function (e) { var d = e.version, r = e.bundleTarget, n = e.surface, o = e.pageUrl, i = e.monorailEndpoint; return { emit: function (e) { var a = e.status, t = e.errorMsg, s = (new Date).getTime(), l = JSON.stringify({ metadata: { event_sent_at_ms: s }, events: [{ schema_id: "web_pixels_manager_load/3.1", payload: { version: d, bundle_target: r, page_url: o, status: a, surface: n, error_msg: t }, metadata: { event_created_at_ms: s } }] }); if (!i) return console && console.warn && console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."), !1; try { return self.navigator.sendBeacon.bind(self.navigator)(i, l) } catch (e) { } var u = new XMLHttpRequest; try { return u.open("POST.html", i, !0), u.setRequestHeader("Content-Type", "text/plain"), u.send(l), !0 } catch (e) { return console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."), !1 } } } }({ version: r, bundleTarget: l, surface: e.surface, pageUrl: self.location.href, monorailEndpoint: e.monorailEndpoint }); try { o.browserTarget = l, function (e) { var d = e.src, r = e.async, n = void 0 === r || r, o = e.onload, i = e.onerror, a = e.sri, t = e.scriptDataAttributes, s = void 0 === t ? {} : t, l = document.createElement("script"), u = document.querySelector("head"), c = document.querySelector("body"); if (l.async = n, l.src = d, a && (l.integrity = a, l.crossOrigin = "anonymous"), s) for (var f in s) if (Object.prototype.hasOwnProperty.call(s, f)) try { l.dataset[f] = s[f] } catch (e) { } if (o && l.addEventListener("load", o), i && l.addEventListener("error", i), u) u.appendChild(l); else { if (!c) throw new Error("Did not find a head or body element to append the script"); c.appendChild(l) } }({ src: f, async: !0, onload: function () { if (!function () { var e, d; return Boolean(null === (d = null === (e = window.Shopify) || void 0 === e ? void 0 : e.analytics) || void 0 === d ? void 0 : d.initialized) }()) { var d = window.webPixelsManager.init(e) || void 0; if (d) { var r = window.Shopify.analytics; r.replayQueue.forEach((function (e) { var r = e[0], n = e[1], o = e[2]; d.publishCustomEvent(r, n, o) })), r.replayQueue = [], r.publish = d.publishCustomEvent, r.visitor = d.visitor, r.initialized = !0 } } }, onerror: function () { return m.emit({ status: "failed", errorMsg: "".concat(f, " has failed to load") }) }, sri: function (e) { var d = /^sha384-[A-Za-z0-9+/=]+$/; return "string" == typeof e && d.test(e) }(c) ? c : "", scriptDataAttributes: o }), m.emit({ status: "loading" }) } catch (e) { m.emit({ status: "failed", errorMsg: (null == e ? void 0 : e.message) || "Unknown error" }) } } })({ shopId: 63738642612, storefrontBaseUrl: "typography.html", extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager", monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch", surface: "storefront-renderer", enabledBetaFlags: ["ac843a20"], webPixelsConfigList: [{ "id": "440205492", "configuration": "{\"config\":\"{\\\"google_tag_ids\\\":[\\\"GT-P8RCB3SH\\\"],\\\"target_country\\\":\\\"SG\\\",\\\"gtag_events\\\":[{\\\"type\\\":\\\"view_item\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"},{\\\"type\\\":\\\"purchase\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"},{\\\"type\\\":\\\"page_view\\\",\\\"action_label\\\":\\\"MC-7SRS2D91NR\\\"}],\\\"enable_monitoring_mode\\\":false}\"}", "eventPayloadVersion": "v1", "runtimeContext": "OPEN", "scriptVersion": "b2a88bafab3e21179ed38636efcd8a93", "type": "APP", "apiClientId": 1780363, "privacyPurposes": [] }, { "id": "154108084", "configuration": "{\"pixel_id\":\"964293195365224\",\"pixel_type\":\"facebook_pixel\",\"metaapp_system_user_token\":\"-\"}", "eventPayloadVersion": "v1", "runtimeContext": "OPEN", "scriptVersion": "6d8c3ef0426b37b2a9b717daeb719f58", "type": "APP", "apiClientId": 2329312, "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"] }, { "id": "21070004", "eventPayloadVersion": "1", "runtimeContext": "LAX", "scriptVersion": "1", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"], "name": "Checkout" }, { "id": "99614900", "eventPayloadVersion": "1", "runtimeContext": "LAX", "scriptVersion": "2", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING", "SALE_OF_DATA"], "name": "Checkout - Adobe" }, { "id": "shopify-app-pixel", "configuration": "{}", "eventPayloadVersion": "v1", "runtimeContext": "STRICT", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "APP", "privacyPurposes": ["ANALYTICS", "MARKETING"] }, { "id": "shopify-custom-pixel", "eventPayloadVersion": "v1", "runtimeContext": "LAX", "scriptVersion": "0450", "apiClientId": "shopify-pixel", "type": "CUSTOM", "privacyPurposes": ["ANALYTICS", "MARKETING"] }], isMerchantRequest: false, initData: { "shop": { "name": "iStudio Singapore", "paymentSettings": { "currencyCode": "SGD" }, "myshopifyDomain": "istudio-elush-production.myshopify.com", "countryCode": "SG", "storefrontUrl": "typography.html" }, "customer": null, "cart": null, "checkout": null, "productVariants": [{ "price": { "amount": 2349.0, "currencyCode": "SGD" }, "product": { "title": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "vendor": "Apple", "id": "7986668568756", "untranslatedTitle": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "url": "typography.html", "type": "iPhone" }, "id": "44033878261940", "image": { "src": "https://newtoolsa05.com/img/banner_sido89_1772204209.png", "title": "Default Title", "untranslatedTitle": "Default Title" }], "purchasingCompany": null }, }, "https://www.istudiosg.com/cdn", "101e3747w14cb203ep86935582m63bbd0d5", { "modern": "", "legacy": "" }, { "shopId": "63738642612", "storefrontBaseUrl": "typography.html", "extensionBaseUrl": "https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager", "surface": "storefront-renderer", "enabledBetaFlags": "[\"ac843a20\"]", "isMerchantRequest": "false", "hashVersion": "101e3747w14cb203ep86935582m63bbd0d5", "publish": "custom", "events": "[[\"page_viewed\",{}],[\"product_viewed\",{\"productVariant\":{\"price\":{\"amount\":2349.0,\"currencyCode\":\"SGD\"},\"product\":{\"title\":\"SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot\",\"vendor\":\"Apple\",\"id\":\"7986668568756\",\"untranslatedTitle\":\"SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot\",\"url\":\"typography.html\",\"type\":\"iPhone\"},\"id\":\"44033878261940\",\"image\":{\"src\":https://www.equinoxcounseling.comhttps://newtoolsa05.com/img/banner_sido89_1772204209.png"\",\"title\":\"Default Title\",\"untranslatedTitle\":\"Default Title\"}}]]" });</script>
     <script>
         window.ShopifyAnalytics = window.ShopifyAnalytics || {};
         window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
@@ -953,7 +953,7 @@
                 if (!hasLoggedConversion(token)) {
                     setCookieIfConversion(token);
                     window.ShopifyAnalytics.lib.track("Viewed Product", { "currency": "SGD", "variantId": 44033878261940, "productId": 7986668568756, "productGid": "gid:\/\/shopify\/Product\/7986668568756", "name": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "price": "2349.00", "sku": "MG8P4X\/A", "brand": "Apple", "variant": null, "category": "iPhone", "nonInteraction": true }, undefined, undefined, { "shopifyEmitted": true });
-                    window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1", { "currency": "SGD", "variantId": 44033878261940, "productId": 7986668568756, "productGid": "gid:\/\/shopify\/Product\/7986668568756", "name": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "price": "2349.00", "sku": "MG8P4X\/A", "brand": "Apple", "variant": null, "category": "iPhone", "nonInteraction": true, "referer": "https://admin.pixelstrap.net/mofi/template/typography.html" });
+                    window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1", { "currency": "SGD", "variantId": 44033878261940, "productId": 7986668568756, "productGid": "gid:\/\/shopify\/Product\/7986668568756", "name": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot", "price": "2349.00", "sku": "MG8P4X\/A", "brand": "Apple", "variant": null, "category": "iPhone", "nonInteraction": true, "referer": "typography.html" });
                 }
             });
 
@@ -1455,7 +1455,7 @@
                     </div>
                     <div class="my-store-locator__details-footer"><a
                             class="my-store-locator__details-btn--secondary button button--secondary button--full-width"
-                            href="https://admin.pixelstrap.net/">
+                            href="#">
                             View store map
                         </a><button
                             class="js-my-store-locator-drawer-btn my-store-locator__details-btn button button--full-width"
@@ -1541,7 +1541,7 @@
                         </a>
                     </div>
                     <div class="apple_logo">
-                        <a href="https://admin.pixelstrap.net/" class="header__heading-link link link--text focus-inset" aria-label="Home"><svg
+                        <a href="#" class="header__heading-link link link--text focus-inset" aria-label="Home"><svg
                                 width="78" height="36" viewbox="0 0 78 36" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1597,7 +1597,7 @@
 
                     <div class="container_search container_search_port"><predictive-search class="search-modal__form"
                             data-loading-text="Loading...">
-                            <form class="nosubmit_form search search-modal__form" action="https://admin.pixelstrap.net/search" id="nosubmit_form2"
+                            <form class="nosubmit_form search search-modal__form" action="#" id="nosubmit_form2"
                                 method="get" role="search"><input type="hidden" name="type" value="product">
                                 <input class="nosubmit" id="Search-In-Modal" type="search" name="q" value=""
                                     placeholder="Search" aria-label="Search" role="combobox" aria-expanded="false"
@@ -1629,7 +1629,7 @@
 
                 </div>
                 <link
-                    href="https://admin.pixelstrap.net/"
+                    href="#"
                     rel="stylesheet" type="text/css" media="all" />
                 <my-store-locator class="no-js-hidden my-store-locator" data-limit-search-to-countries="us"
                     data-storefront-api-access-token="962d1ff668df08fb12a218f6d7553a2e"
@@ -1702,7 +1702,7 @@
                         </div>
                         <div class="my-store-locator__details-footer"><a
                                 class="my-store-locator__details-btn--secondary button button--secondary button--full-width"
-                                href="https://admin.pixelstrap.net/">
+                                href="#">
                                 View store map
                             </a><button
                                 class="js-my-store-locator-drawer-btn my-store-locator__details-btn button button--full-width"
@@ -1757,7 +1757,7 @@
 
                     </div>
 
-                    <a href="https://admin.pixelstrap.net/" class="header__icon header__icon--account link focus-inset small-hide">
+                    <a href="#" class="header__icon header__icon--account link focus-inset small-hide">
 
 
 
@@ -2099,7 +2099,7 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot",
-  "url": "https://admin.pixelstrap.net/mofi/template/typography.html",
+  "url": "typography.html",
   "image": [
     "https://newtoolsa05.com/img/banner_sido89_1772204209.png"
   ],
@@ -2112,7 +2112,7 @@
   "offers": {
     "@type": "Offer",
     "Jenis Game": "AGEN SIDO89, SIDO89",
-    "url": "https://admin.pixelstrap.net/mofi/template/typography.html",
+    "url": "typography.html",
     "price": 1799000.0,
     "priceCurrency": "IDR",
     "availability": "http://schema.org/InStock",
@@ -2138,49 +2138,49 @@
       "@type": "ListItem",
       "position": 1,
       "name": "SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "AGEN SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "SIDO89 NO 1 TOGEL",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 5,
       "name": "SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 6,
       "name": "SERVER TERBAIK SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 7,
       "name": "BANDAR AGEN SIDO89",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     },
     {
       "@type": "ListItem",
       "position": 8,
       "name": "SIDO89 | Agen Slot Terpercaya No.1 dengan Sistem Server Cepat dan Anti Lemot",
-      "item": "https://admin.pixelstrap.net/mofi/template/typography.html"
+      "item": "typography.html"
     }
   ]
 }
@@ -2204,7 +2204,7 @@
     }
   },
   "datePublished": "2025-09-28",
-  "mainEntityOfPage": "https://admin.pixelstrap.net/mofi/template/typography.html",
+  "mainEntityOfPage": "typography.html",
   "description": "SIDO89, Agen Slot Terpercaya No.1 dengan Layanan Server Tercepat & Anti Lag. Bergabunglah sekarang untuk pengalaman bermain slot online yang memuaskan!"
 }
 </script>
@@ -3220,7 +3220,7 @@
                                         <input id="prod_price_44033878261940" type="hidden" value="2,349.00">
 
                                     </div>
-                                    <form method="post" action="https://admin.pixelstrap.net/cart/add"
+                                    <form method="post" action="#"
                                         id="product-form-template--17605519376564__main" accept-charset="UTF-8"
                                         class="form" enctype="multipart/form-data" novalidate="novalidate"
                                         data-type="add-to-cart-form"><input type="hidden" name="form_type"
@@ -3314,7 +3314,7 @@
                                                 class="share-button__message hidden" role="status"> </span>
                                             <input type="text" class="field__input"
                                                 id="ShareUrl-template--17605519376564__main"
-                                                value="https://admin.pixelstrap.net/mofi/template/typography.html"
+                                                value="typography.html"
                                                 placeholder="Link" onclick="this.select();" readonly>
                                             <label class="field__label"
                                                 for="ShareUrl-template--17605519376564__main">Link</label>
@@ -3384,7 +3384,7 @@
                                 </a>
                             </div>
 
-                            <a href="https://admin.pixelstrap.net/" class="link product__view-details animate-arrow">
+                            <a href="#" class="link product__view-details animate-arrow">
                                 View full details
                                 <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false"
                                     class="footer_mail_arrow icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
@@ -3858,7 +3858,7 @@
                                                                             2</strong></span></h3>
                                                                 <div class="rte">
                                                                     <p>Visit any <a
-                                                                            href="https://admin.pixelstrap.net/"
+                                                                            href="#"
                                                                             target="_blank" title=""><span
                                                                                 style="text-decoration:underline">iStudio
                                                                                 store</span></a> (excluding Airport
@@ -3945,7 +3945,7 @@
                                                 <div class="rich-text__blocks left">
                                                     <div class="rich-text__text rte">
                                                         <p>Please contact us at <a
-                                                                href="https://admin.pixelstrap.net/"><span class="__cf_email__" data-cfemail="50363535343231333b103329333c3526393f7e333f3d">[email&#160;protected]</span></a>
+                                                                href="#"><span class="__cf_email__" data-cfemail="50363535343231333b103329333c3526393f7e333f3d">[email&#160;protected]</span></a>
                                                             if you have other enquiries. Trade-in program is provided by
                                                             "Carousell".</p>
                                                     </div>
@@ -4727,17 +4727,17 @@
                     //  localStorage.removeItem("product-click");
                     var prevPage = document.referrer;
                     if (prevPage.includes("collections")) {
-                        prevPage = "PLP :: " + formatString(prevPage.split("https://admin.pixelstrap.net/")[prevPage.split("https://admin.pixelstrap.net/").length - 1]);
+                        prevPage = "PLP :: " + formatString(prevPage.split("#")[prevPage.split("#").length - 1]);
                     } else if (prevPage.includes("pages")) {
-                        prevPage = prevPage.split("https://admin.pixelstrap.net/")[prevPage.split("https://admin.pixelstrap.net/").length - 1] + "_page";
+                        prevPage = prevPage.split("#")[prevPage.split("#").length - 1] + "_page";
                     } else if (prevPage.includes("search")) {
                         prevPage = "Search Results"
                     } else if (prevPage.includes("products")) {
-                        var arr = prevPage.split("https://admin.pixelstrap.net/");
+                        var arr = prevPage.split("#");
                         prevPage = arr[arr.length - 1].split("?")[0] + "_pdp";
                     } else if (prevPage.includes("cart")) {
                         var pageName = window.location.href;
-                        var arr = prevPage.split("https://admin.pixelstrap.net/");
+                        var arr = prevPage.split("#");
                         prevPage = "Cart Page";
                     } else {
                         prevPage = "home_page"
@@ -5358,7 +5358,7 @@
                         option_new: product_opt2,
                         product_opt1: "false",
                         available: "false",
-                        url: "https://admin.pixelstrap.net/mofi/template/typography.html",
+                        url: "typography.html",
                         full_url: "/",
                         id: "44033878261940",
                         product_id: "7986668568756",
@@ -8234,49 +8234,49 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                     <div class="panel2">
                         <ul class="footer-block__details-content list-unstyled">
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-mac"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Mac
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-ipad"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     iPad
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-iphone"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     iPhone
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-watch"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Watch
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-music"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Music
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-tv"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     TV & Home
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/view-all-accessories"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Accessories
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/limited-time-promotion"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Offers
                                 </a>
@@ -8299,13 +8299,13 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                     <div class="panel2">
                         <ul class="footer-block__details-content list-unstyled">
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/applecare"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     AppleCare+
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/business-solutions"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Corporate
                                 </a>
@@ -8317,25 +8317,25 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/service-provider"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Elush Service Provider
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/financing"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Financing Options
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/trade-in"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Trade-in
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/travellers-reservation"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Traveller’s Reservation
                                 </a>
@@ -8358,43 +8358,43 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                     <div class="panel2">
                         <ul class="footer-block__details-content list-unstyled">
                             <li>
-                                <a href="https://admin.pixelstrap.net/account/login"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     My Account
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/policies/shipping-policy"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Collection & Delivery
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/policies/refund-policy"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Returns & Exchanges
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/contact-us"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Contact Us
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/pages/istudio-faq"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     FAQ
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/policies/privacy-policy"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Privacy Policy
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/policies/terms-of-service"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Site Terms of Use
                                 </a>
@@ -8417,25 +8417,25 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                     <div class="panel2">
                         <ul class="footer-block__details-content list-unstyled">
                             <li>
-                                <a href="https://admin.pixelstrap.net/"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     About Us
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Find an iStudio near you
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Why Shop at iStudio
                                 </a>
                             </li>
                             <li>
-                                <a href="https://admin.pixelstrap.net/"
+                                <a href="#"
                                     class="footer_content_list link link--text list-menu__item list-menu__item--link">
                                     Elush Corporate Website
                                 </a>
@@ -8706,7 +8706,7 @@ document.querySelectorAll(".faq-question").forEach((btn) => {
                 <div class="page-width footer_newsletter_icon_section">
                     <div class="footer-block__newsletter">
                         <p class="footer-block__heading2 inline-richtext">Subscribe to our emails</p>
-                        <form method="post" action="https://admin.pixelstrap.net/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8"
+                        <form method="post" action="#ContactFooter" id="ContactFooter" accept-charset="UTF-8"
                             class="footer__newsletter newsletter-form"><input type="hidden" name="form_type"
                                 value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden"
                                 name="contact[tags]" value="newsletter">
@@ -9281,5 +9281,5 @@ shortcut.add("Ctrl+U", function () {
 </body>
 
 
-<!-- Mirrored from admin.pixelstrap.net/mofi/template/typography.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 May 2026 08:57:07 GMT -->
+
 </html>

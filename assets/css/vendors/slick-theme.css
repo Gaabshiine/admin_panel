@@ -5,16 +5,16 @@
 }
 
 /* Icons */
-@font-face {
+@font-face
+{
   font-family: "slick";
   font-weight: normal;
   font-style: normal;
-
-  src: url("https://admin.pixelstrap.net/mofi/assets/fonts/slick/slick.eot");
-  src: url("https://admin.pixelstrap.net/mofi/assets/fonts/slick/slick.eot?#iefix") format("embedded-opentype"),
-    url("https://admin.pixelstrap.net/mofi/assets/fonts/slick/slick.woff") format("woff"),
-    url("https://admin.pixelstrap.net/mofi/assets/fonts/slick/slick.ttf") format("truetype"),
-    url("https://admin.pixelstrap.net/mofi/assets/fonts/slick/slick.svg#slick") format("svg");
+  src: url("../../fonts/slick/slick.eot");
+  src: url("../../fonts/slick/slick.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/slick/slick.woff") format("woff"),
+    url("../../fonts/slick/slick.ttf") format("truetype"),
+    url("../../fonts/slick/slick.svg#slick") format("svg");
 }
 /* Arrows */
 .slick-prev,
